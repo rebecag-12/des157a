@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Color</title>
+    
+</head>
+<body>
+
+    <h1 style = "font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 30px;" > Experimentation 2</h1>
+
+    <script>
+        var colors = ['red', 'blue', 'green', 'purple', 'pink', 'yellow', 'orange']
+
+        var colorSelection = prompt ('Select your favorite color!')
+
+        var colorSelected = ""
+
+        function backgroundColor() {
+             for (i = 0; i < colors.length; i++) {
+                if (colorSelection == colors[i]) {
+                colorSelected = colorSelection;
+                }
+            } 
+            return document.querySelector("body").style.backgroundColor = colorSelected;
+        }
+
+        backgroundColor()
+    </script>
+    
+</body>
+</html>
