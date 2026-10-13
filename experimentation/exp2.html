@@ -11,6 +11,9 @@
     <h1 style = "font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 30px;" > Experimentation 2</h1>
 
     <script>
+
+    /* this program prompts the user to choose their favorite color. I included 7 common colors as a list, if the user chooses a color from this list, the loop will go through the list and choose the color that was the prompted. */
+
         var colors = ['red', 'blue', 'green', 'purple', 'pink', 'yellow', 'orange']
 
         var colorSelection = prompt ('Select your favorite color!')
@@ -21,6 +24,9 @@
              for (i = 0; i < colors.length; i++) {
                 if (colorSelection == colors[i]) {
                 colorSelected = colorSelection;
+                }
+                else {
+                    console.log("You pick a color that is not on my list ;(");
                 }
             } 
             return document.querySelector("body").style.backgroundColor = colorSelected;
