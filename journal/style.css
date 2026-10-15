@@ -55,7 +55,28 @@ p {
     transform: rotate(-1deg);
 }
 
+.blog2-entry {
+    background-color: #fffaf0;
+    width: 800px;
+    margin: 60px auto;
+    padding: 30px 40px;
+    box-shadow: 4px 6px 10px rgba(60, 40, 50, 0.15);
+    border: 1px solid rgba(100, 70, 80, 0.08);
+    transform: rotate(-1deg);
+}
+
 .entry-title {
+    display: inline-block;
+    background-color: #f2b8cd;
+    padding: 8px 18px;
+    font-family: "Loved by the King", cursive;
+    font-size: 30px;
+    transform: rotate(-2deg);
+    margin-top: -10px;
+
+}
+
+.entry2-title {
     display: inline-block;
     background-color: #f2b8cd;
     padding: 8px 18px;
@@ -75,4 +96,9 @@ p {
     font-size: 20px;
    
 
+}
+
+a {
+    text-decoration: none;
+    color: #7a6b9a;
 }
