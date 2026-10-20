@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Gone Wrong</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuyu&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="style.css">
+    <script src ="script.js" defer ></script>
+
+</head>
+<body>
+    <header> 
+        <h1> Trip Gone Wrong!</h1>
+        <p>Plan the vacation of your dreams.</p>
+    </header>
+
+    <main>
+           <!-- Mad Lib Form -->
+        <section class="passport">
+            <div class="passport-cover">
+                <h2>Travel Passport</h2>
+                <p>TRIP GONE WRONG</p>
+            </div>
+
+            <div class="passport-form">
+                <h2>Traveler Information</h2>
+                <p>Fill in the blanks to plan your trip!</p>
+
+                    <form>
+                    <label for="name">Your Name:</label>
+                    <input type ="text" id="name" placeholder="Enter your name" required>
+
+                    <label for="destination">Where are you going?</label>
+                    <input type="text" id="destination" placeholder="Enter a destination" required>
+
+                    <label for="adjective">Describe your vacation:</label>
+                    <input type="text" id="adjective" placeholder="Enter an adjective" required>
+
+                    <label for="food">Your favorite food:</label>
+                    <input type="text" id="food" placeholder="Enter a food" required>
+
+                    <label for="animal">An animal:</label>
+                    <input type="text" id="animal" placeholder="Enter an animal" required>
+
+                    <input type="submit" value="Book Your Trip" class="button">
+                    </form>
+            </div>
+        </section>
+
+       <!--  Result View -->
+         <section class="results">
+            <h2>Your Vacay Intinerary Arrived!</h2>
+
+            <div class="ticket">
+                <p><strong>PASSENGER:</strong> Name</p>
+                <p><strong>DESTINATION:</strong> Destination</p>
+                <p><strong>FLIGHT:</strong> DES-157</p>
+            </div>
+
+            <div class="story">
+                <h3>[Destination]-Vacay Journal</h3>
+
+                <p>Once upon a time, [Name] booked a vacation to [Destination]. They packed their bags, grabbed their passport, and prepared for what they thought would be the most [adjective] vaction of their life.</p>
+
+                <p>After the long flight, [Name] finally arrived in [Destination]. They checked into their hotel and decided to explore the local cuisine. Everything seemed perfect, especially when they found a restaurant serving the popular dish of [food].</p>
+
+                <p>Just as [Name] was about to take their first bite, a sneaky [animal] appeared out of nowhere, stealing their entire [food] and their wallet. [Name] chased the [animal] through the restaurant, through the streets of [destination], passing confused locals and all the way into the hotel lobby.</p>
+
+                <p>The [animal] stood its ground, holding the [food] in its mouth. [Name] pleaded the [animal] for their wallet back, saying they can have the food. The [animal] ate the [food] but just as [Name] moved closer the [animal], it ran through the door and vanished into the crowded city without a trace. </p>
+
+                <p>[Name] looked everywhere for their stolen item. Nothing showed up, as if the [animal] disappeared into thin air. With no food and no wallet, [Name] returned to their hotel where the receptionist explained that [animal] robberies were common in the neighborhood.</p>
+
+                <p>[Name] expected a [adjective] adventure, but instead became a victim of a criminal mastermind. At least they had a story to tell when they got home! </p>
+
+                <p class="stamp">NEVER AGAIN!</p>
+            </div>
+            <button type="button">Plan Another Trip</button>
+    </section>
+    </main>
+
+
+   
+</body>
+</html>
