@@ -24,13 +24,25 @@
             <div class="passport-cover">
                 <h2>Travel Passport</h2>
                 <p>TRIP GONE WRONG</p>
+                
+                <div class="passport-stamp">
+                    <span>ADVENTURE</span>
+                    <strong>APPROVED</strong>
+                    <span>EST.2026</span>
+                </div>
+
+                <div class="passport-stamp second-stamp">
+                    <span>TRAVEL CLUB</span>
+                    <strong>WANDER<br>OFTEN</strong>
+                </div>
+
             </div>
 
             <div class="passport-form">
                 <h2>Traveler Information</h2>
                 <p>Fill in the blanks to plan your trip!</p>
 
-                    <form>
+                    <form id="myform">
                     <label for="name">Your Name:</label>
                     <input type ="text" id="name" placeholder="Enter your name" required>
 
@@ -38,7 +50,7 @@
                     <input type="text" id="destination" placeholder="Enter a destination" required>
 
                     <label for="adjective">Describe your vacation:</label>
-                    <input type="text" id="adjective" placeholder="Enter an adjective" required>
+                    <input type="text" id="adjective" placeholder="Enter an adjective" required >
 
                     <label for="food">Your favorite food:</label>
                     <input type="text" id="food" placeholder="Enter a food" required>
@@ -50,18 +62,26 @@
                     </form>
             </div>
         </section>
+        <!-- <article id="madlib"></article> -->
 
        <!--  Result View -->
-         <section class="results">
+         <section id = "results" class="hidden">
             <h2>Your Vacay Intinerary Arrived!</h2>
 
             <div class="ticket">
-                <p><strong>PASSENGER:</strong> Name</p>
+                <p><strong>PASSENGER:</strong>Name</p>
                 <p><strong>DESTINATION:</strong> Destination</p>
                 <p><strong>FLIGHT:</strong> DES-157</p>
             </div>
 
-            <div class="story">
+      
+                <div class="polaroid">
+                    <img src="./images/flowers.jpg" alt="Photo of flowers from vacation" width="574" height="768">
+                    <p>wish you were here..</p>
+                </div>
+
+
+            <div id="madlib">
                 <h3>[Destination]-Vacay Journal</h3>
 
                 <p>Once upon a time, [Name] booked a vacation to [Destination]. They packed their bags, grabbed their passport, and prepared for what they thought would be the most [adjective] vaction of their life.</p>
@@ -78,7 +98,9 @@
 
                 <p class="stamp">NEVER AGAIN!</p>
             </div>
-            <button type="button">Plan Another Trip</button>
+            <button type="button" id="restart">Plan Another Trip</button>
+
+            <div class="showing"></div>
     </section>
     </main>
 

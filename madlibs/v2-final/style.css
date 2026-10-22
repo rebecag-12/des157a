@@ -1,0 +1,280 @@
+body {
+    background-color: #f4ece2;
+    color: #40382f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px ;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #965966;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic;
+    color: #76695d;
+    font-size: 17px;
+}
+
+/* passport form */
+
+.passport {
+    display: flex;
+    max-width: 850px;
+    margin: 30px auto 60px;
+    background-color: #fffaf2;
+    border: 2px solid #d8c8b5;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 6px 0 #dfcfc0, 10px 11px 0 #eadfd3;
+
+}
+
+.passport-cover {
+    background-color: #a96f7b;
+    color: #fff5e5;
+    width: 35%;
+    padding: 35px 20px;
+    text-align: center;
+    border-right: 3px double #e8c8bc;
+}
+
+.passport-cover h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.passport-form {
+    flex: 1;
+    padding: 30px;
+    background-color: #fffaf2;
+}
+
+.passport-form  p {
+    color: #76695d;
+    font-style: italic;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border: 1px dashed #c7a88f;
+    background-color: #f8f0e5;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #40383f;
+}
+
+.button {
+    margin-top: 28px;
+    padding: 15px;
+    background-color: #a96f7b;
+    color: #fffaf2;
+    border: 1px solid #965966;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #965966;
+}
+
+#results {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#results h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.ticket {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffaf2;
+    border: 2px dashed #c7a88f;
+    border-left: 8px solid #a96f7b;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 4px 4px 0 #e4d6c8;
+    position: relative;
+}
+
+.ticketLabel {
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #965966;
+}
+
+ .ticketDes {
+    text-transform: uppercase;
+    color: #40382f;
+    border-bottom: 2px dashed #c7a88f;
+    padding-bottom: 18px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.ticket p {
+    margin: 12px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #e1d2c2;
+}
+
+.ticket strong {
+    color: #a96f7b;
+    letter-spacing: 1px;
+}
+
+#madlib {
+    font-family: "Yuyu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    background-color: #fffaf2;
+    border: 1px solid #d8c8b5;
+    padding: 30px;
+    border-radius: 3px;
+    line-height: 1.8;
+    box-shadow: 5px 5px 0 #e4d6c8;
+    width: 650px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    
+}
+
+#madlib h3 {
+    color: #a96f7b;
+    border-bottom: 1px dashed #cdbba7;
+    padding-bottom: 12px;
+    margin-top: 0;
+}
+
+.stamp {
+    color: #a44e4e;
+    border: 2px solid #a44e4e;
+    padding: 8px 14px;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 20px;
+    transform: rotate(-5deg);
+    margin-top: 20px;
+
+}
+
+.passport-stamp {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+    border: 3px double #fff5e5;
+    color: #fff5e5;
+    transform: rotate(-12deg);
+    box-sizing: border-box;
+}
+
+.passport-stamp span {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.passport-stamp strong {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.second-stamp {
+    border-radius: 50%;
+    margin: 95px auto 0;
+    transform: rotate(10deg);
+    border: 3px dashed #fff5e5;
+    width: 200px;
+    height: 200px;
+}
+
+.polaroid {
+    width: 190px;
+    padding: 10px 10px 5px;
+    margin: 15px 0;
+    background-color: #fffdf7;
+    box-shadow: 3px 4px 8px #cdbba7;
+    transform: rotate(3deg);
+    text-align: center;
+}
+
+.polaroid img {
+    display: block;
+    width: 100%;
+    height: 160px;
+   object-fit: cover;
+}
+
+.polaroid p {
+    font-family: "Yuyu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #76695d;
+    margin: 12px 0 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+    animation: fadeIn 0.9s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#restart {
+    display: block;
+    margin: 30px auto;
+    padding: 14px 24px;
+    background-color: #a96f7b;
+    color: #fffaf2;
+    border: 1px solid #965966;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restart:hover {
+    background-color: #965966;
+}
