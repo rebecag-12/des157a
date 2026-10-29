@@ -13,7 +13,7 @@ header {
 
 header h1 {
     font-size: 40px;
-    color: #965966;
+    color: #681D2D;
     margin-bottom: 10px;
 }
 
@@ -142,7 +142,7 @@ input {
 }
 
 .ticket strong {
-    color: #a96f7b;
+    color: #681D2D;
     letter-spacing: 1px;
 }
 
@@ -164,7 +164,7 @@ input {
 }
 
 #madlib h3 {
-    color: #a96f7b;
+    color: #681D2D;
     border-bottom: 1px dashed #cdbba7;
     padding-bottom: 12px;
     margin-top: 0;
