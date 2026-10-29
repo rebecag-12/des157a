@@ -1,6 +1,6 @@
 body {
-    background-color: #f4ece2;
-    color: #40382f;
+    background-color: #F7F0E8;
+    color: #40382F;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 30px 20px;
@@ -38,8 +38,8 @@ header p {
 }
 
 .passport-cover {
-    background-color: #a96f7b;
-    color: #fff5e5;
+   background-color: #681D2D;
+    color: #F7F0E8;
     width: 35%;
     padding: 35px 20px;
     text-align: center;
@@ -85,8 +85,8 @@ input {
 .button {
     margin-top: 28px;
     padding: 15px;
-    background-color: #a96f7b;
-    color: #fffaf2;
+    background-color: #681D2D;
+    color: #F7F0E8;
     border: 1px solid #965966;
     border-radius: 4px;
     font-size: 16px;
@@ -171,7 +171,7 @@ input {
 }
 
 .stamp {
-    color: #a44e4e;
+    color: #681D2D;
     border: 2px solid #a44e4e;
     padding: 8px 14px;
     display: inline-block;
