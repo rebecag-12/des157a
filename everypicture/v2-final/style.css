@@ -35,7 +35,7 @@ p {
 }
 
 button {
-    background-color: #ff1c0a;
+    background-color: #d66bc1;
     color: white;
     border: none;
     border-radius: 5px;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: #b41004;
+    background-color: #7104b4;
 }
 
 .hidden {
